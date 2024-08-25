@@ -5,23 +5,23 @@ padding: 0;
 box-sizing: border-box;
 }
 body{
-    background-color: plum;
+    background-color: rgb(247, 247, 240);
 }
 .p1 {
     display: flex;
     justify-content: center;
-    height: 100vh;
+    height: 42em;
     align-items: center;
 }
 .p2 {
-    background-color:purple;
-    height: 86vh;
-    width: 80vh;
+    background-color:rgb(80, 35, 3);
+    height: 37em;
+    width: 34em;
     border-radius: 12px;  
 }
 
 .p3 {
-    background-image: url(photo3.jpg);
+    background-image: url(IMG_5002.jpg);
     height: 140px;
     width: 140px;
     border-radius: 75%;
@@ -36,12 +36,12 @@ body{
     font-style: bolder;
     font-family: 'georgia';
     margin-top: 7px;
-    color: ghostwhite;
+    color: beige;
     font-size: 15px;
 }
 .p5 {
     text-align: center;
-    color: ghostwhite;
+    color: beige;
     font-size: 15px;
     font-family: verdana;
     margin-top: 4px;
@@ -60,8 +60,8 @@ body{
     margin-left: 70px;
     border-radius: 10px;
     border: none;
-    background-color: plum;
-    color: purple;
+    background-color:beige;
+    color: rgb(80, 35, 3);
     font-style: bolder;
     font-size: 20px;
     margin-top: 25px;
@@ -80,8 +80,8 @@ body{
     margin-left: 70px;
     border-radius: 10px;
     border: none;
-    background-color:plum;
-    color: purple;
+    background-color:beige;
+    color: rgb(80, 35, 3);
     font-style: bolder;
     font-size: 20px; 
     margin-top:25px;
@@ -99,8 +99,8 @@ body{
     margin-left: 70px;
     border-radius: 10px;
     border: none;
-    background-color: plum;
-    color: purple;
+    background-color:beige;
+    color: rgb(80, 35, 3);
     font-style: bolder;
     font-size: 20px; 
     margin-top: 25px;
@@ -120,8 +120,8 @@ body{
     margin-left: 70px;
     border-radius: 10px;
     border: none;
-    background-color: plum;
-    color: purple;
+    background-color:beige;
+    color: rgb(80, 35, 3);
     font-style: bolder;
     font-size: 20px; 
     margin-top: 25px;
@@ -133,26 +133,25 @@ body{
     background-color: beige;
     color: purple;
 }
-@media only screen and (max-width: 470px){
+@media only screen and (max-width: 475px){
     .p1 {
         display: flex;
         justify-content: center;
-        height: 100vh;
+        height: 40em;
         align-items: center;
     }
     .p2 {
-        background-color:purple;
-        height: 500px;
-        width: 300px;
-        border-radius: 12px;
-        margin-left: -60px;  
-        margin-top: -90px;
+        background-color:rgb(80, 35, 3);
+        height: 33em;
+        width: 22em;
+        border-radius: 12px; 
+     
     }
     
     .p3 {
-        background-image: url(photo3.jpg);
-        height: 100px;
-        width: 100px;
+        background-image: url(IMG_5002.jpg);
+        height: 120px;
+        width: 120px;
         border-radius: 75%;
         margin-top: 30px;
         margin-left: 100px;
@@ -165,12 +164,12 @@ body{
         font-style: bolder;
         font-family: 'georgia';
         margin-top: 7px;
-        color: ghostwhite;
+        color: beige;
         font-size: 10px;
     }
     .p5 {
         text-align: center;
-        color: ghostwhite;
+        color: beige;
         font-size: 10px;
         font-family: verdana;
         margin-top: 4px;
@@ -179,20 +178,20 @@ body{
         text-align: center;
         color: ghostwhite;
         margin-top: 8px;
-        font-size: 10px;
+        font-size: 15px;
         font-family: georgia;
         font-style: italic;
     }
     .p7 {
-        height: 30px;
-        width: 200px;
-        margin-left: 50px;
+        height: 2em;
+        width: 15em;
+        margin-left: 30px;
         border-radius: 10px;
         border: none;
-        background-color: plum;
-        color: purple;
+        background-color:beige;
+        color: rgb(80, 35, 3);
         font-style: bolder;
-        font-size: 15px;
+        font-size: 20px;
         margin-top: 25px;
         font-family: lucida;
         cursor: pointer;
@@ -204,15 +203,15 @@ body{
         
     }
     .p8 {
-        height: 30px;
-        width: 200px;
-        margin-left: 50px;
+        height: 2em;
+        width: 15em;
+        margin-left: 30px;
         border-radius: 10px;
         border: none;
-        background-color:plum;
-        color: purple;
+        background-color:beige;
+        color: rgb(80, 35, 3);
         font-style: bolder;
-        font-size: 15px; 
+        font-size: 20px; 
         margin-top:25px;
         font-family: lucida;
         cursor: pointer;
@@ -223,15 +222,15 @@ body{
         color: ghostwhite;
     }
     .p9 {
-        height: 30px;
-        width: 200px;
-        margin-left: 50px;
+        height: 2em;
+        width: 15em;
+        margin-left: 30px;
         border-radius: 10px;
         border: none;
-        background-color: plum;
-        color: purple;
+        background-color:beige;
+        color: rgb(80, 35, 3);
         font-style: bolder;
-        font-size: 15px; 
+        font-size: 20px; 
         margin-top: 25px;
         font-family: lucida;
         cursor: pointer;
@@ -244,15 +243,15 @@ body{
     
     }
     .p10 {
-        height: 30px;
-        width: 200px;
-        margin-left: 50px;
+        height: 2em;
+        width: 15em;
+        margin-left: 30px;
         border-radius: 10px;
         border: none;
-        background-color: plum;
-        color: purple;
+        background-color:beige;
+        color: rgb(80, 35, 3);
         font-style: bolder;
-        font-size: 15px; 
+        font-size: 20px; 
         margin-top: 25px;
         font-family: lucida; 
         cursor: pointer;
