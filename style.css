@@ -133,7 +133,285 @@ body{
     background-color: black;
     color: ghostwhite;
 }
-@media only screen and (max-width: 475px){
+
+
+@media only screen and (max-width: 991px){
+    .p1 {
+        display: flex;
+        justify-content: center;
+        height: 40em;
+        align-items: center;
+    }
+    .p2 {
+        background-color:rgb(80, 35, 3);
+        height: 45em;
+        width: 35em;
+        border-radius: 12px; 
+        margin-top: 400px;
+     
+    }
+    
+    .p3 {
+        background-image: url(IMG_5002.jpg);
+        height: 250px;
+        width: 250px;
+        border-radius: 75%;
+        margin-top: 30px;
+        margin-left: 145px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .p4 {
+        text-align: center;
+        font-style: bolder;
+        font-family: 'georgia';
+        margin-top: 7px;
+        color: beige;
+        font-size: 15px;
+    }
+    .p5 {
+        text-align: center;
+        color: beige;
+        font-size: 13px;
+        font-family: verdana;
+        margin-top: 4px;
+    }
+    .p6 {
+        text-align: center;
+        color: ghostwhite;
+        margin-top: 8px;
+        font-size: 18px;
+        font-family: georgia;
+        font-style: italic;
+    }
+    .p7 {
+        height: 2em;
+        width: 25em;
+        margin-left: 30px;
+        border-radius: 10px;
+        border: none;
+        background-color:beige;
+        color: rgb(80, 35, 3);
+        font-style: bolder;
+        font-size: 20px;
+        margin-top: 25px;
+        font-family: lucida;
+        cursor: pointer;
+        transition:0.7s ease-in-out;
+    }
+    .p7:hover {
+        background-color: black;
+        color: ghostwhite;
+        
+    }
+    .p8 {
+        height: 2em;
+        width: 25em;
+        margin-left: 30px;
+        border-radius: 10px;
+        border: none;
+        background-color:beige;
+        color: rgb(80, 35, 3);
+        font-style: bolder;
+        font-size: 20px; 
+        margin-top:25px;
+        font-family: lucida;
+        cursor: pointer;
+        transition: 0.7s ease-in-out;
+    }
+    .p8:hover {
+        background-color:black;
+        color: ghostwhite;
+    }
+    .p9 {
+        height: 2em;
+        width: 25em;
+        margin-left: 30px;
+        border-radius: 10px;
+        border: none;
+        background-color:beige;
+        color: rgb(80, 35, 3);
+        font-style: bolder;
+        font-size: 20px; 
+        margin-top: 25px;
+        font-family: lucida;
+        cursor: pointer;
+        transition: 0.7s ease-in-out;
+        
+    }
+    .p9:hover {
+        background-color: black;
+        color: ghostwhite;
+    
+    }
+    .p10 {
+        height: 2em;
+        width: 25em;
+        margin-left: 30px;
+        border-radius: 10px;
+        border: none;
+        background-color:beige;
+        color: rgb(80, 35, 3);
+        font-style: bolder;
+        font-size: 20px; 
+        margin-top: 25px;
+        font-family: lucida; 
+        cursor: pointer;
+        transition: 0.7s ease-in-out;
+    }
+    .p10:hover {
+        background-color: black;
+        color: ghostwhite;
+    }
+    .foot {
+        height: 1em;
+        width: auto;
+        color: wheat;
+        background-color:rgb(80, 35, 3);
+        margin-top: 400px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 767px){
+    .p1 {
+        display: flex;
+        justify-content: center;
+        height: 40em;
+        align-items: center;
+    }
+    .p2 {
+        background-color:rgb(80, 35, 3);
+        height: 40em;
+        width: 30em;
+        border-radius: 12px; 
+        margin-top: 300px;
+     
+    }
+    
+    .p3 {
+        background-image: url(IMG_5002.jpg);
+        height: 200px;
+        width: 200px;
+        border-radius: 75%;
+        margin-top: 30px;
+        margin-left: 135px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .p4 {
+        text-align: center;
+        font-style: bolder;
+        font-family: 'georgia';
+        margin-top: 7px;
+        color: beige;
+        font-size: 15px;
+    }
+    .p5 {
+        text-align: center;
+        color: beige;
+        font-size: 13px;
+        font-family: verdana;
+        margin-top: 4px;
+    }
+    .p6 {
+        text-align: center;
+        color: ghostwhite;
+        margin-top: 8px;
+        font-size: 18px;
+        font-family: georgia;
+        font-style: italic;
+    }
+    .p7 {
+        height: 2em;
+        width: 21em;
+        margin-left: 30px;
+        border-radius: 10px;
+        border: none;
+        background-color:beige;
+        color: rgb(80, 35, 3);
+        font-style: bolder;
+        font-size: 20px;
+        margin-top: 25px;
+        font-family: lucida;
+        cursor: pointer;
+        transition:0.7s ease-in-out;
+    }
+    .p7:hover {
+        background-color: black;
+        color: ghostwhite;
+        
+    }
+    .p8 {
+        height: 2em;
+        width: 21em;
+        margin-left: 30px;
+        border-radius: 10px;
+        border: none;
+        background-color:beige;
+        color: rgb(80, 35, 3);
+        font-style: bolder;
+        font-size: 20px; 
+        margin-top:25px;
+        font-family: lucida;
+        cursor: pointer;
+        transition: 0.7s ease-in-out;
+    }
+    .p8:hover {
+        background-color:black;
+        color: ghostwhite;
+    }
+    .p9 {
+        height: 2em;
+        width: 21em;
+        margin-left: 30px;
+        border-radius: 10px;
+        border: none;
+        background-color:beige;
+        color: rgb(80, 35, 3);
+        font-style: bolder;
+        font-size: 20px; 
+        margin-top: 25px;
+        font-family: lucida;
+        cursor: pointer;
+        transition: 0.7s ease-in-out;
+        
+    }
+    .p9:hover {
+        background-color: black;
+        color: ghostwhite;
+    
+    }
+    .p10 {
+        height: 2em;
+        width: 21em;
+        margin-left: 30px;
+        border-radius: 10px;
+        border: none;
+        background-color:beige;
+        color: rgb(80, 35, 3);
+        font-style: bolder;
+        font-size: 20px; 
+        margin-top: 25px;
+        font-family: lucida; 
+        cursor: pointer;
+        transition: 0.7s ease-in-out;
+    }
+    .p10:hover {
+        background-color: black;
+        color: ghostwhite;
+    }
+    .foot {
+        height: 1em;
+        width: auto;
+        color: wheat;
+        background-color:rgb(80, 35, 3);
+        margin-top: 400px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 479px){
     .p1 {
         display: flex;
         justify-content: center;
@@ -260,5 +538,13 @@ body{
     .p10:hover {
         background-color: black;
         color: ghostwhite;
+    }
+    .foot {
+        height: 1em;
+        width: auto;
+        color: wheat;
+        background-color:rgb(80, 35, 3);
+        margin-top: 400px;
+        text-align: center;
     }
 }
