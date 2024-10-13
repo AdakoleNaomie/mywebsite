@@ -423,6 +423,7 @@ body{
         height: 33em;
         width: 22em;
         border-radius: 12px; 
+        margin-top: -10px;
      
     }
     
@@ -544,7 +545,7 @@ body{
         width: auto;
         color: wheat;
         background-color:rgb(80, 35, 3);
-        margin-top: 400px;
+        margin-top: 150px;
         text-align: center;
     }
 }
